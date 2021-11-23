@@ -1,0 +1,65 @@
+{
+  "name": "lezy",
+  "private": true,
+  "description": "",
+  "version": "0.1.0",
+  "author": "SunFox",
+  "dependencies": {
+    "@aws-amplify/ui-components": "^1.9.2",
+    "@aws-amplify/ui-react": "^1.2.22",
+    "@aws-sdk/client-s3": "^3.40.0",
+    "aws-amplify": "^4.3.4",
+    "babel-preset-gatsby": "^2.1.0",
+    "draft-js": "^0.11.7",
+    "draft-js-export-html": "^1.4.1",
+    "draftjs-to-html": "^0.9.1",
+    "gatsby": "^4.1.0",
+    "gatsby-plugin-image": "^2.1.0",
+    "gatsby-plugin-layout": "^3.1.0",
+    "gatsby-plugin-manifest": "^4.1.0",
+    "gatsby-plugin-offline": "^5.1.0",
+    "gatsby-plugin-sharp": "^4.1.0",
+    "gatsby-source-filesystem": "^4.1.0",
+    "gatsby-transformer-sharp": "^4.1.0",
+    "html-to-draftjs": "^1.5.0",
+    "identity-obj-proxy": "^3.0.0",
+    "mammoth": "^1.4.19",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-draft-wysiwyg": "^1.14.7",
+    "react-hook-form": "^7.19.1",
+    "react-loadable": "^5.5.0",
+    "react-sortable-tree": "^2.8.0",
+    "react-test-renderer": "^17.0.2",
+    "react-textarea-autosize": "^8.3.3",
+    "sanitize-html": "^2.5.3",
+    "stream": "^0.0.2",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "prettier": "2.4.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "build": "node init_script.js && gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "node init_script.js && gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "rm FileTable.json && rm -rf ./content && gatsby clean",
+    "test": "jest --config config/jest/jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SunFoxesAgency/english_website"
+  },
+  "bugs": {
+    "url": ""
+  }
+}

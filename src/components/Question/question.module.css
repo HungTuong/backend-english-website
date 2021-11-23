@@ -1,0 +1,23 @@
+.choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-bottom: 3px;
+}
+
+.question {
+    margin: 25px 3px;
+}
+
+.question .content {
+    margin-bottom: 10px;
+}
+
+.choices button {
+  min-height: 30px;
+}
+
+.answer-note {
+   width: 80%; 
+}

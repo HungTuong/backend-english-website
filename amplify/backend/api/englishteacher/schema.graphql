@@ -1,0 +1,21 @@
+type Question @model {
+  id: ID!
+  question: String!
+  choices: String!
+  correct: Int!
+  question_type: String
+  question_difficulty: Int
+  note: String
+}
+
+type Student @model {
+  id: ID!
+  answered_questions: [ID]!
+}
+
+type ContentFiles @model @key(fields: ["url"]) {
+  url: String!
+  S3_URL: String! 
+  title: String!
+  lastUpdateUser: String!
+}
